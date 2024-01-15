@@ -2,13 +2,38 @@
 
 body{
     font-family: 'Mulish', sans-serif;
-    width: 1440px;
+    /* width: 1440px; */
 }
 .color-orange{
     color: #FF5400;
 }
+.all-title{
+    color: #131318;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.all-p{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF5400;
+    padding: 15px 30px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
 
                     /*    NAV    */
+
+.menu{
+    display: none;
+    cursor: pointer;
+}
 
 nav{
     display: flex;
@@ -42,3 +67,85 @@ nav li a{
     font-weight: 400;
     color: #424247;
 }
+
+/*  MAIN BANNER SECTION */
+
+.banner{
+    
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 16px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #FFF;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFF;
+}
+
+
+/*  POPULAR TOUR SECTION  */
+
+.popular-tour{
+    display: flex;
+    gap: 50px;
+    margin: 100px auto;
+    max-width: 1170px;
+
+}
+.tour-li{
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*          RESPONSIVE     */
+
+@media screen and (max-width:600px){
+
+    nav{
+        flex-direction: column;
+       margin: 50px 0px;
+        /* max-width: 600px; */
+       
+    }
+    .popular-tour{
+        flex-direction: column; 
+        margin-left: 20px;
+
+    
+    }
+    .popular-tour img{
+        max-width: 90%;
+        margin-left: 10px;
+    }
+}
+
+
