@@ -110,20 +110,57 @@ nav li a{
 }
 
 
+/* Destination  SECTION  */
 
+.destination{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.destination-title{
+    text-align: center;
+}
+.dest-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 
+/*  DESTINATION IMG*/
 
+.div-parent{
+    max-width: 1170px;
+}
+/* FIRST DIV IMG */
+.first-div{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.+-large;
+  }
 
+/* SECOND DIV IMG */
+.second-div{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
 
-
-
-
-
-
-
-
-
-
+.third-div{
+    display: flex;
+    gap: 24px;
+}
 
 
 /*          RESPONSIVE     */
@@ -138,14 +175,36 @@ nav li a{
     }
     .popular-tour{
         flex-direction: column; 
-        margin-left: 20px;
-
+        margin-left: 6px;
+        margin-right: 5px;
     
     }
     .popular-tour img{
-        max-width: 90%;
-        margin-left: 10px;
+        max-width: 100%;
+       
     }
+    .first-div,
+    .second-div,
+    .third-div
+    {
+        flex-direction: column; 
+    }
+    .first-div img,
+    .second-div img,
+    .third-div img
+    {
+        max-width: 100%;
+    }
+    .destination-title .all-title{
+        font-size: 1.6rem;
+
+    }
+    /* .srilanka img{
+       width: 450px;
+    }
+    .kashmir img{
+        width: 550px;
+    } */
 }
 
 
