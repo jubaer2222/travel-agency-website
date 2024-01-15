@@ -163,6 +163,90 @@ nav li a{
 }
 
 
+/* CHOOSE SECTION */
+.choose-us{
+   margin: 100px auto;
+    max-width: 1170px;
+
+
+}
+.choose-us-title{
+    text-align: center;
+}
+.choose-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.cardis{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 45px;
+}
+.choose-h3{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-top: 16px;
+}
+.choose-p{
+    color: #5A5A5D;
+    font-weight: 400;
+}
+.card1{
+    width: 573px;
+    height: 250px;
+    padding: 35px 50px 30px 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card2{
+    width: 573px;
+    height: 250px;
+    padding: 35px 50px 30px 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+
+}
+.card3{
+  margin-left: 250px;
+  margin-top: 24px;
+    width: 573px;
+    height: 250px;
+    padding: 35px 50px 30px 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*          RESPONSIVE     */
 
 @media screen and (max-width:600px){
@@ -205,6 +289,26 @@ nav li a{
     .kashmir img{
         width: 550px;
     } */
+    
+    .cardis{
+        flex-direction: column;
+        gap: 20px;  
+    }
+    .card1,
+    .card2,
+    .card3
+    {
+        padding: 30px 20px 15px 20px;
+        max-width: 100%;
+        
+    }
+    .card3{
+        margin: 0px;
+    }
+    .choose-title{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 
