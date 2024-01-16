@@ -411,9 +411,11 @@ padding-right: 10px;
 hr{
    margin-left: 285px;
    margin-right: 285px;
+   margin-bottom: 50px;
 }
 .footer-last p{
     text-align: center;
+    padding-bottom: 100px;
     
 }
 
