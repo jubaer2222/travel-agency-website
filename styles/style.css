@@ -100,9 +100,21 @@ nav li a{
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-left: 185px;
-    margin-right: 185px;
-    padding: 16px;
+    margin-left: 155px;
+    margin-right: 155px;
+    padding: 12px;
+}
+.find{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 20px 14px 20px;
+}
+.find-now{
+    background-color: #FF5400;
+    border: none;
+    color: #FFF;
 }
 .where{
     padding: 16px 84px 16px 16px;
@@ -112,9 +124,7 @@ nav li a{
     font-weight: 400;
 }
 
-.select-when{
-   
-}
+
 .when{
     margin-right: 24px;
     border-radius: 8px;
@@ -256,8 +266,8 @@ nav li a{
 
 }
 .card3{
-  margin-left: 250px;
-  margin-top: 24px;
+    margin-left: 250px;
+    margin-top: 24px;
     width: 573px;
     height: 250px;
     padding: 35px 50px 30px 30px;
@@ -278,6 +288,7 @@ nav li a{
 }
 .news-letter-main{
     width: 474px;
+    height: 340px;
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
@@ -345,6 +356,8 @@ nav li a{
     color: #FFF;
 }
 
+
+     /* FOOTER */
 .footer-last{
     max-width: 1440px;
     background: rgba(19, 19, 24, 0.05);
@@ -394,15 +407,7 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-/*          RESPONSIVE     */
+/*          RESPONSIVE  MOBILE DEVICE    */
 
 @media screen and (max-width:600px){
 
@@ -413,7 +418,36 @@ hr{
     nav li a{
         display: none;
     }
+    .banner-title{
+        font-size: 1.7rem;
+    }
+    .banner {
+        max-width: 100%;
+    }
+    .when,
+    .select-type{
+        margin-right: 0px;
+        height: 30px;
+    }
+    .where,
+    .when,
+    .select-type,
+    .find{
+        
+        height: 16px;
+        width: 156px;
+        padding: 10px;
+    }
+
+   .banner-input{
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
    
+   .select-when{
+    display: block;
+   }
     .popular-tour{
         flex-direction: column; 
         margin-left: 6px;
@@ -470,13 +504,19 @@ hr{
         padding-left: 30px;
         padding-right: 30px;
     }
+    
     .news-letter{
         flex-direction: column;
        
         padding: 5px;
+        margin-right: 10px;
     }
-    .save-up img{
-        max-width: 80%; 
+    .news-letter img{
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    .news-img{
+        max-width: 90%;
     }
     .news-letter-main{
         max-width: 90%;
@@ -491,6 +531,14 @@ hr{
     .social-icon img{
         width: 5%;
     }
+    .save-up h3{
+        font-size: 1.25rem;
+    }
+    .save-up{
+        width: 70%;
+        position: static;
+        margin-left: 80px;
+        margin-right: 50px;
+        
 }
-
-
+}
