@@ -356,6 +356,27 @@ nav li a{
     color: #FFF;
 }
 
+/* EXTRA */
+.extra{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background-color:antiquewhite;
+width: 573px;
+height: 284px;
+margin-top: 0px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding-top: 30px;
+font-size: 1.5rem;
+padding-left: 10px;
+padding-right: 10px;
+}
+.extra h3{
+    margin-bottom: 60px;
+}
+
 
      /* FOOTER */
 .footer-last{
@@ -395,8 +416,6 @@ hr{
     text-align: center;
     
 }
-
-
 
 
 
@@ -536,9 +555,15 @@ hr{
     }
     .save-up{
         width: 70%;
+        transform: none;
         position: static;
         margin-left: 80px;
         margin-right: 50px;
         
 }
+    .extra{
+        max-width: 92%; 
+        margin-left: 5px;
+        margin-right: 10px;
+    }
 }
