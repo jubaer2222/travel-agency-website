@@ -551,6 +551,9 @@ hr{
         margin-right: 5px;
         margin-left: 4px;
     }
+    .footer-last p{
+        padding-bottom: 0px;
+    }
     .footer-last hr{
         margin-left: 30px;
         margin-right: 30px;
