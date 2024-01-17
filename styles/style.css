@@ -445,20 +445,25 @@ hr{
     }
     .banner {
         max-width: 100%;
+        background-position: center;
     }
     .when,
     .select-type{
         margin-right: 0px;
-        height: 30px;
+        
     }
     .where,
     .when,
     .select-type,
     .find{
         
-        height: 16px;
+      
         width: 156px;
         padding: 10px;
+    }
+    .where,
+    .find{
+        height: 16px;
     }
 
    .banner-input{
@@ -560,8 +565,8 @@ hr{
         width: 70%;
         transform: none;
         position: static;
-        margin-left: 80px;
-        margin-right: 50px;
+        margin-left: 70px;
+        margin-right: 40px;
         
 }
     .extra{
